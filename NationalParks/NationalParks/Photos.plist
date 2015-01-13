@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>Bryce Canyon</string>
+		<key>photos</key>
+		<array>
+			<dict>
+				<key>imageName</key>
+				<string>BryceCanyon01</string>
+				<key>caption</key>
+				<string>Ampiteatre</string>
+			</dict>
+			<dict>
+				<key>imageName</key>
+				<string>BryceCanyon02</string>
+				<key>caption</key>
+				<string>Panoramic View</string>
+			</dict>
+			<dict>
+				<key>imageName</key>
+				<string>BryceCanyon03</string>
+				<key>caption</key>
+				<string>Natural Bride</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Carlsbad</string>
+		<key>photos</key>
+		<array>
+			<dict>
+				<key>imageName</key>
+				<string>Carlsbad01</string>
+				<key>caption</key>
+				<string>Array of Stalactites</string>
+			</dict>
+			<dict>
+				<key>imageName</key>
+				<string>Carlsbad02</string>
+				<key>caption</key>
+				<string>Hall of Giants</string>
+			</dict>
+			<dict>
+				<key>imageName</key>
+				<string>Carlsbad03</string>
+				<key>caption</key>
+				<string>Lake of the Clouds</string>
+			</dict>
+			<dict>
+				<key>imageName</key>
+				<string>Carlsbad04</string>
+				<key>caption</key>
+				<string>Limestone Chandelier</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Everglades</string>
+		<key>photos</key>
+		<array>
+			<dict>
+				<key>imageName</key>
+				<string>Everglades01</string>
+				<key>caption</key>
+				<string>Bromeliads on Bald Cypress Trees</string>
+			</dict>
+			<dict>
+				<key>imageName</key>
+				<string>Everglades02</string>
+				<key>caption</key>
+				<string> Last Stands of Pine Rockland</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Glacier</string>
+		<key>photos</key>
+		<array>
+			<dict>
+				<key>imageName</key>
+				<string>Glacier01</string>
+				<key>caption</key>
+				<string>Near Iceberg Lake</string>
+			</dict>
+			<dict>
+				<key>imageName</key>
+				<string>Glacier02</string>
+				<key>caption</key>
+				<string>Hidden Lake</string>
+			</dict>
+			<dict>
+				<key>imageName</key>
+				<string>Glacier03</string>
+				<key>caption</key>
+				<string>Lake Josephine and Mount Gould</string>
+			</dict>
+			<dict>
+				<key>imageName</key>
+				<string>Glacier04</string>
+				<key>caption</key>
+				<string>St Mary Lake</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Grand Teton</string>
+		<key>photos</key>
+		<array>
+			<dict>
+				<key>imageName</key>
+				<string>GrandTeton01</string>
+				<key>caption</key>
+				<string>A Grand View</string>
+			</dict>
+			<dict>
+				<key>imageName</key>
+				<string>GrandTeton02</string>
+				<key>caption</key>
+				<string>Jenny Lake</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Yellowstone</string>
+		<key>photos</key>
+		<array>
+			<dict>
+				<key>imageName</key>
+				<string>Yellowstone01</string>
+				<key>caption</key>
+				<string>YellowStone Falls</string>
+			</dict>
+			<dict>
+				<key>imageName</key>
+				<string>Yellowstone02</string>
+				<key>caption</key>
+				<string>Old Faithful</string>
+			</dict>
+			<dict>
+				<key>imageName</key>
+				<string>Yellowstone03</string>
+				<key>caption</key>
+				<string>Morning Glory</string>
+			</dict>
+			<dict>
+				<key>imageName</key>
+				<string>Yellowstone04</string>
+				<key>caption</key>
+				<string>Geyser at Dusk</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Yosemite</string>
+		<key>photos</key>
+		<array>
+			<dict>
+				<key>imageName</key>
+				<string>Yosemite01</string>
+				<key>caption</key>
+				<string>Yosemite Valley from Tunnel View</string>
+			</dict>
+			<dict>
+				<key>imageName</key>
+				<string>Yosemite02</string>
+				<key>caption</key>
+				<string>Winter Scene</string>
+			</dict>
+			<dict>
+				<key>imageName</key>
+				<string>Yosemite03</string>
+				<key>caption</key>
+				<string>Panoramic View</string>
+			</dict>
+			<dict>
+				<key>imageName</key>
+				<string>Yosemite04</string>
+				<key>caption</key>
+				<string>Waterfall</string>
+			</dict>
+			<dict>
+				<key>imageName</key>
+				<string>Yosemite05</string>
+				<key>caption</key>
+				<string>El Capitan</string>
+			</dict>
+			<dict>
+				<key>imageName</key>
+				<string>Yosemite06</string>
+				<key>caption</key>
+				<string>Half Dome</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Zion</string>
+		<key>photos</key>
+		<array>
+			<dict>
+				<key>imageName</key>
+				<string>Zion01</string>
+				<key>caption</key>
+				<string>Zion Canyon from Angels Landing</string>
+			</dict>
+			<dict>
+				<key>imageName</key>
+				<string>Zion02</string>
+				<key>caption</key>
+				<string>Virgin River</string>
+			</dict>
+			<dict>
+				<key>imageName</key>
+				<string>Zion03</string>
+				<key>caption</key>
+				<string>Angels Landing</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

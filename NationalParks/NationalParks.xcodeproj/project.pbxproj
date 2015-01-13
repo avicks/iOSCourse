@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA05E80319EF2CB300CD8766 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA05E80219EF2CB300CD8766 /* Foundation.framework */; };
+		FA05E80519EF2CB300CD8766 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA05E80419EF2CB300CD8766 /* CoreGraphics.framework */; };
+		FA05E80719EF2CB300CD8766 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA05E80619EF2CB300CD8766 /* UIKit.framework */; };
+		FA05E80D19EF2CB300CD8766 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA05E80B19EF2CB300CD8766 /* InfoPlist.strings */; };
+		FA05E80F19EF2CB300CD8766 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA05E80E19EF2CB300CD8766 /* main.m */; };
+		FA05E81319EF2CB300CD8766 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA05E81219EF2CB300CD8766 /* AppDelegate.m */; };
+		FA05E81619EF2CB300CD8766 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA05E81419EF2CB300CD8766 /* Main_iPhone.storyboard */; };
+		FA05E81919EF2CB300CD8766 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA05E81719EF2CB300CD8766 /* Main_iPad.storyboard */; };
+		FA05E81C19EF2CB300CD8766 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA05E81B19EF2CB300CD8766 /* ViewController.m */; };
+		FA05E81E19EF2CB300CD8766 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA05E81D19EF2CB300CD8766 /* Images.xcassets */; };
+		FA05E82519EF2CB300CD8766 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA05E82419EF2CB300CD8766 /* XCTest.framework */; };
+		FA05E82619EF2CB300CD8766 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA05E80219EF2CB300CD8766 /* Foundation.framework */; };
+		FA05E82719EF2CB300CD8766 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA05E80619EF2CB300CD8766 /* UIKit.framework */; };
+		FA05E82F19EF2CB300CD8766 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA05E82D19EF2CB300CD8766 /* InfoPlist.strings */; };
+		FA05E83119EF2CB300CD8766 /* NationalParksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA05E83019EF2CB300CD8766 /* NationalParksTests.m */; };
+		FA05E85D19EF2D5E00CD8766 /* arrowDown.png in Resources */ = {isa = PBXBuildFile; fileRef = FA05E83B19EF2D5E00CD8766 /* arrowDown.png */; };
+		FA05E85E19EF2D5E00CD8766 /* arrowLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = FA05E83C19EF2D5E00CD8766 /* arrowLeft.png */; };
+		FA05E85F19EF2D5E00CD8766 /* arrowRight.png in Resources */ = {isa = PBXBuildFile; fileRef = FA05E83D19EF2D5E00CD8766 /* arrowRight.png */; };
+		FA05E86019EF2D5E00CD8766 /* arrowUp.png in Resources */ = {isa = PBXBuildFile; fileRef = FA05E83E19EF2D5E00CD8766 /* arrowUp.png */; };
+		FA05E86119EF2D5E00CD8766 /* BryceCanyon01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA05E84019EF2D5E00CD8766 /* BryceCanyon01.jpg */; };
+		FA05E86219EF2D5E00CD8766 /* BryceCanyon02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA05E84119EF2D5E00CD8766 /* BryceCanyon02.jpg */; };
+		FA05E86319EF2D5E00CD8766 /* BryceCanyon03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA05E84219EF2D5E00CD8766 /* BryceCanyon03.jpg */; };
+		FA05E86419EF2D5E00CD8766 /* Carlsbad01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA05E84319EF2D5E00CD8766 /* Carlsbad01.jpg */; };
+		FA05E86519EF2D5E00CD8766 /* Carlsbad02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA05E84419EF2D5E00CD8766 /* Carlsbad02.jpg */; };
+		FA05E86619EF2D5E00CD8766 /* Carlsbad03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA05E84519EF2D5E00CD8766 /* Carlsbad03.jpg */; };
+		FA05E86719EF2D5E00CD8766 /* Carlsbad04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA05E84619EF2D5E00CD8766 /* Carlsbad04.jpg */; };
+		FA05E86819EF2D5E00CD8766 /* Everglades01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA05E84719EF2D5E00CD8766 /* Everglades01.jpg */; };
+		FA05E86919EF2D5E00CD8766 /* Everglades02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA05E84819EF2D5E00CD8766 /* Everglades02.jpg */; };
+		FA05E86A19EF2D5E00CD8766 /* Glacier01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA05E84919EF2D5E00CD8766 /* Glacier01.jpg */; };
+		FA05E86B19EF2D5E00CD8766 /* Glacier02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA05E84A19EF2D5E00CD8766 /* Glacier02.jpg */; };
+		FA05E86C19EF2D5E00CD8766 /* Glacier03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA05E84B19EF2D5E00CD8766 /* Glacier03.jpg */; };
+		FA05E86D19EF2D5E00CD8766 /* Glacier04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA05E84C19EF2D5E00CD8766 /* Glacier04.jpg */; };
+		FA05E86E19EF2D5E00CD8766 /* GrandTeton01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA05E84D19EF2D5E00CD8766 /* GrandTeton01.jpg */; };
+		FA05E86F19EF2D5E00CD8766 /* GrandTeton02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA05E84E19EF2D5E00CD8766 /* GrandTeton02.jpg */; };
+		FA05E87019EF2D5E00CD8766 /* Yellowstone01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA05E84F19EF2D5E00CD8766 /* Yellowstone01.jpg */; };
+		FA05E87119EF2D5E00CD8766 /* Yellowstone02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA05E85019EF2D5E00CD8766 /* Yellowstone02.jpg */; };
+		FA05E87219EF2D5E00CD8766 /* Yellowstone03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA05E85119EF2D5E00CD8766 /* Yellowstone03.jpg */; };
+		FA05E87319EF2D5E00CD8766 /* Yellowstone04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA05E85219EF2D5E00CD8766 /* Yellowstone04.jpg */; };
+		FA05E87419EF2D5E00CD8766 /* Yosemite01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA05E85319EF2D5E00CD8766 /* Yosemite01.jpg */; };
+		FA05E87519EF2D5E00CD8766 /* Yosemite02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA05E85419EF2D5E00CD8766 /* Yosemite02.jpg */; };
+		FA05E87619EF2D5E00CD8766 /* Yosemite03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA05E85519EF2D5E00CD8766 /* Yosemite03.jpg */; };
+		FA05E87719EF2D5E00CD8766 /* Yosemite04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA05E85619EF2D5E00CD8766 /* Yosemite04.jpg */; };
+		FA05E87819EF2D5E00CD8766 /* Yosemite05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA05E85719EF2D5E00CD8766 /* Yosemite05.jpg */; };
+		FA05E87919EF2D5E00CD8766 /* Yosemite06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA05E85819EF2D5E00CD8766 /* Yosemite06.jpg */; };
+		FA05E87A19EF2D5E00CD8766 /* Zion01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA05E85919EF2D5E00CD8766 /* Zion01.jpg */; };
+		FA05E87B19EF2D5E00CD8766 /* Zion02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA05E85A19EF2D5E00CD8766 /* Zion02.jpg */; };
+		FA05E87C19EF2D5E00CD8766 /* Zion03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA05E85B19EF2D5E00CD8766 /* Zion03.jpg */; };
+		FA05E87D19EF2D5E00CD8766 /* Photos.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA05E85C19EF2D5E00CD8766 /* Photos.plist */; };
+		FA05E88319EF2DF600CD8766 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = FA05E88219EF2DF600CD8766 /* Model.m */; };
+		FAD6E61119F6E4BA00F8B1CD /* LaunchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = FAD6E61019F6E4BA00F8B1CD /* LaunchImage.png */; };
+		FAD6E61419F6E76000F8B1CD /* AppIcon60px.png in Resources */ = {isa = PBXBuildFile; fileRef = FAD6E61219F6E76000F8B1CD /* AppIcon60px.png */; };
+		FAD6E61519F6E76000F8B1CD /* AppIcon60px@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAD6E61319F6E76000F8B1CD /* AppIcon60px@2x.png */; };
+		FAD6E61819F6E7CD00F8B1CD /* AppIcon76px.png in Resources */ = {isa = PBXBuildFile; fileRef = FAD6E61619F6E7CD00F8B1CD /* AppIcon76px.png */; };
+		FAD6E61919F6E7CD00F8B1CD /* AppIcon76px@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAD6E61719F6E7CD00F8B1CD /* AppIcon76px@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA05E82819EF2CB300CD8766 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA05E7F719EF2CB200CD8766 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA05E7FE19EF2CB300CD8766;
+			remoteInfo = NationalParks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA05E7FF19EF2CB300CD8766 /* NationalParks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NationalParks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA05E80219EF2CB300CD8766 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA05E80419EF2CB300CD8766 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FA05E80619EF2CB300CD8766 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FA05E80A19EF2CB300CD8766 /* NationalParks-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NationalParks-Info.plist"; sourceTree = "<group>"; };
+		FA05E80C19EF2CB300CD8766 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA05E80E19EF2CB300CD8766 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA05E81019EF2CB300CD8766 /* NationalParks-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NationalParks-Prefix.pch"; sourceTree = "<group>"; };
+		FA05E81119EF2CB300CD8766 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FA05E81219EF2CB300CD8766 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FA05E81519EF2CB300CD8766 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		FA05E81819EF2CB300CD8766 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		FA05E81A19EF2CB300CD8766 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FA05E81B19EF2CB300CD8766 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FA05E81D19EF2CB300CD8766 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FA05E82319EF2CB300CD8766 /* NationalParksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NationalParksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA05E82419EF2CB300CD8766 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FA05E82C19EF2CB300CD8766 /* NationalParksTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NationalParksTests-Info.plist"; sourceTree = "<group>"; };
+		FA05E82E19EF2CB300CD8766 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA05E83019EF2CB300CD8766 /* NationalParksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NationalParksTests.m; sourceTree = "<group>"; };
+		FA05E83B19EF2D5E00CD8766 /* arrowDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowDown.png; sourceTree = "<group>"; };
+		FA05E83C19EF2D5E00CD8766 /* arrowLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowLeft.png; sourceTree = "<group>"; };
+		FA05E83D19EF2D5E00CD8766 /* arrowRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowRight.png; sourceTree = "<group>"; };
+		FA05E83E19EF2D5E00CD8766 /* arrowUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowUp.png; sourceTree = "<group>"; };
+		FA05E84019EF2D5E00CD8766 /* BryceCanyon01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BryceCanyon01.jpg; sourceTree = "<group>"; };
+		FA05E84119EF2D5E00CD8766 /* BryceCanyon02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BryceCanyon02.jpg; sourceTree = "<group>"; };
+		FA05E84219EF2D5E00CD8766 /* BryceCanyon03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BryceCanyon03.jpg; sourceTree = "<group>"; };
+		FA05E84319EF2D5E00CD8766 /* Carlsbad01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Carlsbad01.jpg; sourceTree = "<group>"; };
+		FA05E84419EF2D5E00CD8766 /* Carlsbad02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Carlsbad02.jpg; sourceTree = "<group>"; };
+		FA05E84519EF2D5E00CD8766 /* Carlsbad03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Carlsbad03.jpg; sourceTree = "<group>"; };
+		FA05E84619EF2D5E00CD8766 /* Carlsbad04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Carlsbad04.jpg; sourceTree = "<group>"; };
+		FA05E84719EF2D5E00CD8766 /* Everglades01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Everglades01.jpg; sourceTree = "<group>"; };
+		FA05E84819EF2D5E00CD8766 /* Everglades02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Everglades02.jpg; sourceTree = "<group>"; };
+		FA05E84919EF2D5E00CD8766 /* Glacier01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Glacier01.jpg; sourceTree = "<group>"; };
+		FA05E84A19EF2D5E00CD8766 /* Glacier02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Glacier02.jpg; sourceTree = "<group>"; };
+		FA05E84B19EF2D5E00CD8766 /* Glacier03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Glacier03.jpg; sourceTree = "<group>"; };
+		FA05E84C19EF2D5E00CD8766 /* Glacier04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Glacier04.jpg; sourceTree = "<group>"; };
+		FA05E84D19EF2D5E00CD8766 /* GrandTeton01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GrandTeton01.jpg; sourceTree = "<group>"; };
+		FA05E84E19EF2D5E00CD8766 /* GrandTeton02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GrandTeton02.jpg; sourceTree = "<group>"; };
+		FA05E84F19EF2D5E00CD8766 /* Yellowstone01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Yellowstone01.jpg; sourceTree = "<group>"; };
+		FA05E85019EF2D5E00CD8766 /* Yellowstone02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Yellowstone02.jpg; sourceTree = "<group>"; };
+		FA05E85119EF2D5E00CD8766 /* Yellowstone03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Yellowstone03.jpg; sourceTree = "<group>"; };
+		FA05E85219EF2D5E00CD8766 /* Yellowstone04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Yellowstone04.jpg; sourceTree = "<group>"; };
+		FA05E85319EF2D5E00CD8766 /* Yosemite01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Yosemite01.jpg; sourceTree = "<group>"; };
+		FA05E85419EF2D5E00CD8766 /* Yosemite02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Yosemite02.jpg; sourceTree = "<group>"; };
+		FA05E85519EF2D5E00CD8766 /* Yosemite03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Yosemite03.jpg; sourceTree = "<group>"; };
+		FA05E85619EF2D5E00CD8766 /* Yosemite04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Yosemite04.jpg; sourceTree = "<group>"; };
+		FA05E85719EF2D5E00CD8766 /* Yosemite05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Yosemite05.jpg; sourceTree = "<group>"; };
+		FA05E85819EF2D5E00CD8766 /* Yosemite06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Yosemite06.jpg; sourceTree = "<group>"; };
+		FA05E85919EF2D5E00CD8766 /* Zion01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Zion01.jpg; sourceTree = "<group>"; };
+		FA05E85A19EF2D5E00CD8766 /* Zion02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Zion02.jpg; sourceTree = "<group>"; };
+		FA05E85B19EF2D5E00CD8766 /* Zion03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Zion03.jpg; sourceTree = "<group>"; };
+		FA05E85C19EF2D5E00CD8766 /* Photos.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Photos.plist; sourceTree = "<group>"; };
+		FA05E88119EF2DF600CD8766 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Model.h; path = ../Model.h; sourceTree = "<group>"; };
+		FA05E88219EF2DF600CD8766 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Model.m; path = ../Model.m; sourceTree = "<group>"; };
+		FAD6E61019F6E4BA00F8B1CD /* LaunchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchImage.png; sourceTree = "<group>"; };
+		FAD6E61219F6E76000F8B1CD /* AppIcon60px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon60px.png; sourceTree = "<group>"; };
+		FAD6E61319F6E76000F8B1CD /* AppIcon60px@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon60px@2x.png"; sourceTree = "<group>"; };
+		FAD6E61619F6E7CD00F8B1CD /* AppIcon76px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon76px.png; sourceTree = "<group>"; };
+		FAD6E61719F6E7CD00F8B1CD /* AppIcon76px@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon76px@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA05E7FC19EF2CB300CD8766 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA05E80519EF2CB300CD8766 /* CoreGraphics.framework in Frameworks */,
+				FA05E80719EF2CB300CD8766 /* UIKit.framework in Frameworks */,
+				FA05E80319EF2CB300CD8766 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA05E82019EF2CB300CD8766 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA05E82519EF2CB300CD8766 /* XCTest.framework in Frameworks */,
+				FA05E82719EF2CB300CD8766 /* UIKit.framework in Frameworks */,
+				FA05E82619EF2CB300CD8766 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA05E7F619EF2CB200CD8766 = {
+			isa = PBXGroup;
+			children = (
+				FA05E80819EF2CB300CD8766 /* NationalParks */,
+				FA05E82A19EF2CB300CD8766 /* NationalParksTests */,
+				FA05E80119EF2CB300CD8766 /* Frameworks */,
+				FA05E80019EF2CB300CD8766 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA05E80019EF2CB300CD8766 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA05E7FF19EF2CB300CD8766 /* NationalParks.app */,
+				FA05E82319EF2CB300CD8766 /* NationalParksTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA05E80119EF2CB300CD8766 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA05E80219EF2CB300CD8766 /* Foundation.framework */,
+				FA05E80419EF2CB300CD8766 /* CoreGraphics.framework */,
+				FA05E80619EF2CB300CD8766 /* UIKit.framework */,
+				FA05E82419EF2CB300CD8766 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA05E80819EF2CB300CD8766 /* NationalParks */ = {
+			isa = PBXGroup;
+			children = (
+				FA05E81119EF2CB300CD8766 /* AppDelegate.h */,
+				FA05E81219EF2CB300CD8766 /* AppDelegate.m */,
+				FA05E81419EF2CB300CD8766 /* Main_iPhone.storyboard */,
+				FA05E81719EF2CB300CD8766 /* Main_iPad.storyboard */,
+				FA05E81A19EF2CB300CD8766 /* ViewController.h */,
+				FA05E81B19EF2CB300CD8766 /* ViewController.m */,
+				FA05E88119EF2DF600CD8766 /* Model.h */,
+				FA05E88219EF2DF600CD8766 /* Model.m */,
+				FA05E81D19EF2CB300CD8766 /* Images.xcassets */,
+				FA05E80919EF2CB300CD8766 /* Supporting Files */,
+			);
+			path = NationalParks;
+			sourceTree = "<group>";
+		};
+		FA05E80919EF2CB300CD8766 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAD6E61019F6E4BA00F8B1CD /* LaunchImage.png */,
+				FAD6E61219F6E76000F8B1CD /* AppIcon60px.png */,
+				FAD6E61319F6E76000F8B1CD /* AppIcon60px@2x.png */,
+				FAD6E61619F6E7CD00F8B1CD /* AppIcon76px.png */,
+				FAD6E61719F6E7CD00F8B1CD /* AppIcon76px@2x.png */,
+				FA05E83A19EF2D5E00CD8766 /* Arrows */,
+				FA05E83F19EF2D5E00CD8766 /* Photos */,
+				FA05E85C19EF2D5E00CD8766 /* Photos.plist */,
+				FA05E80A19EF2CB300CD8766 /* NationalParks-Info.plist */,
+				FA05E80B19EF2CB300CD8766 /* InfoPlist.strings */,
+				FA05E80E19EF2CB300CD8766 /* main.m */,
+				FA05E81019EF2CB300CD8766 /* NationalParks-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA05E82A19EF2CB300CD8766 /* NationalParksTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA05E83019EF2CB300CD8766 /* NationalParksTests.m */,
+				FA05E82B19EF2CB300CD8766 /* Supporting Files */,
+			);
+			path = NationalParksTests;
+			sourceTree = "<group>";
+		};
+		FA05E82B19EF2CB300CD8766 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA05E82C19EF2CB300CD8766 /* NationalParksTests-Info.plist */,
+				FA05E82D19EF2CB300CD8766 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA05E83A19EF2D5E00CD8766 /* Arrows */ = {
+			isa = PBXGroup;
+			children = (
+				FA05E83B19EF2D5E00CD8766 /* arrowDown.png */,
+				FA05E83C19EF2D5E00CD8766 /* arrowLeft.png */,
+				FA05E83D19EF2D5E00CD8766 /* arrowRight.png */,
+				FA05E83E19EF2D5E00CD8766 /* arrowUp.png */,
+			);
+			path = Arrows;
+			sourceTree = "<group>";
+		};
+		FA05E83F19EF2D5E00CD8766 /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				FA05E84019EF2D5E00CD8766 /* BryceCanyon01.jpg */,
+				FA05E84119EF2D5E00CD8766 /* BryceCanyon02.jpg */,
+				FA05E84219EF2D5E00CD8766 /* BryceCanyon03.jpg */,
+				FA05E84319EF2D5E00CD8766 /* Carlsbad01.jpg */,
+				FA05E84419EF2D5E00CD8766 /* Carlsbad02.jpg */,
+				FA05E84519EF2D5E00CD8766 /* Carlsbad03.jpg */,
+				FA05E84619EF2D5E00CD8766 /* Carlsbad04.jpg */,
+				FA05E84719EF2D5E00CD8766 /* Everglades01.jpg */,
+				FA05E84819EF2D5E00CD8766 /* Everglades02.jpg */,
+				FA05E84919EF2D5E00CD8766 /* Glacier01.jpg */,
+				FA05E84A19EF2D5E00CD8766 /* Glacier02.jpg */,
+				FA05E84B19EF2D5E00CD8766 /* Glacier03.jpg */,
+				FA05E84C19EF2D5E00CD8766 /* Glacier04.jpg */,
+				FA05E84D19EF2D5E00CD8766 /* GrandTeton01.jpg */,
+				FA05E84E19EF2D5E00CD8766 /* GrandTeton02.jpg */,
+				FA05E84F19EF2D5E00CD8766 /* Yellowstone01.jpg */,
+				FA05E85019EF2D5E00CD8766 /* Yellowstone02.jpg */,
+				FA05E85119EF2D5E00CD8766 /* Yellowstone03.jpg */,
+				FA05E85219EF2D5E00CD8766 /* Yellowstone04.jpg */,
+				FA05E85319EF2D5E00CD8766 /* Yosemite01.jpg */,
+				FA05E85419EF2D5E00CD8766 /* Yosemite02.jpg */,
+				FA05E85519EF2D5E00CD8766 /* Yosemite03.jpg */,
+				FA05E85619EF2D5E00CD8766 /* Yosemite04.jpg */,
+				FA05E85719EF2D5E00CD8766 /* Yosemite05.jpg */,
+				FA05E85819EF2D5E00CD8766 /* Yosemite06.jpg */,
+				FA05E85919EF2D5E00CD8766 /* Zion01.jpg */,
+				FA05E85A19EF2D5E00CD8766 /* Zion02.jpg */,
+				FA05E85B19EF2D5E00CD8766 /* Zion03.jpg */,
+			);
+			path = Photos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA05E7FE19EF2CB300CD8766 /* NationalParks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA05E83419EF2CB300CD8766 /* Build configuration list for PBXNativeTarget "NationalParks" */;
+			buildPhases = (
+				FA05E7FB19EF2CB300CD8766 /* Sources */,
+				FA05E7FC19EF2CB300CD8766 /* Frameworks */,
+				FA05E7FD19EF2CB300CD8766 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NationalParks;
+			productName = NationalParks;
+			productReference = FA05E7FF19EF2CB300CD8766 /* NationalParks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA05E82219EF2CB300CD8766 /* NationalParksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA05E83719EF2CB300CD8766 /* Build configuration list for PBXNativeTarget "NationalParksTests" */;
+			buildPhases = (
+				FA05E81F19EF2CB300CD8766 /* Sources */,
+				FA05E82019EF2CB300CD8766 /* Frameworks */,
+				FA05E82119EF2CB300CD8766 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA05E82919EF2CB300CD8766 /* PBXTargetDependency */,
+			);
+			name = NationalParksTests;
+			productName = NationalParksTests;
+			productReference = FA05E82319EF2CB300CD8766 /* NationalParksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA05E7F719EF2CB200CD8766 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Alex Vickers";
+				TargetAttributes = {
+					FA05E82219EF2CB300CD8766 = {
+						TestTargetID = FA05E7FE19EF2CB300CD8766;
+					};
+				};
+			};
+			buildConfigurationList = FA05E7FA19EF2CB200CD8766 /* Build configuration list for PBXProject "NationalParks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA05E7F619EF2CB200CD8766;
+			productRefGroup = FA05E80019EF2CB300CD8766 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA05E7FE19EF2CB300CD8766 /* NationalParks */,
+				FA05E82219EF2CB300CD8766 /* NationalParksTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA05E7FD19EF2CB300CD8766 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA05E86519EF2D5E00CD8766 /* Carlsbad02.jpg in Resources */,
+				FA05E81919EF2CB300CD8766 /* Main_iPad.storyboard in Resources */,
+				FA05E86E19EF2D5E00CD8766 /* GrandTeton01.jpg in Resources */,
+				FAD6E61819F6E7CD00F8B1CD /* AppIcon76px.png in Resources */,
+				FA05E87319EF2D5E00CD8766 /* Yellowstone04.jpg in Resources */,
+				FA05E87A19EF2D5E00CD8766 /* Zion01.jpg in Resources */,
+				FA05E87119EF2D5E00CD8766 /* Yellowstone02.jpg in Resources */,
+				FA05E86819EF2D5E00CD8766 /* Everglades01.jpg in Resources */,
+				FA05E81E19EF2CB300CD8766 /* Images.xcassets in Resources */,
+				FA05E85D19EF2D5E00CD8766 /* arrowDown.png in Resources */,
+				FA05E87019EF2D5E00CD8766 /* Yellowstone01.jpg in Resources */,
+				FA05E87419EF2D5E00CD8766 /* Yosemite01.jpg in Resources */,
+				FA05E86D19EF2D5E00CD8766 /* Glacier04.jpg in Resources */,
+				FA05E87519EF2D5E00CD8766 /* Yosemite02.jpg in Resources */,
+				FA05E86619EF2D5E00CD8766 /* Carlsbad03.jpg in Resources */,
+				FA05E86F19EF2D5E00CD8766 /* GrandTeton02.jpg in Resources */,
+				FA05E81619EF2CB300CD8766 /* Main_iPhone.storyboard in Resources */,
+				FAD6E61119F6E4BA00F8B1CD /* LaunchImage.png in Resources */,
+				FA05E87C19EF2D5E00CD8766 /* Zion03.jpg in Resources */,
+				FA05E86719EF2D5E00CD8766 /* Carlsbad04.jpg in Resources */,
+				FA05E86A19EF2D5E00CD8766 /* Glacier01.jpg in Resources */,
+				FA05E87819EF2D5E00CD8766 /* Yosemite05.jpg in Resources */,
+				FA05E85E19EF2D5E00CD8766 /* arrowLeft.png in Resources */,
+				FA05E85F19EF2D5E00CD8766 /* arrowRight.png in Resources */,
+				FA05E87219EF2D5E00CD8766 /* Yellowstone03.jpg in Resources */,
+				FA05E87919EF2D5E00CD8766 /* Yosemite06.jpg in Resources */,
+				FA05E86419EF2D5E00CD8766 /* Carlsbad01.jpg in Resources */,
+				FA05E87619EF2D5E00CD8766 /* Yosemite03.jpg in Resources */,
+				FA05E86019EF2D5E00CD8766 /* arrowUp.png in Resources */,
+				FA05E86919EF2D5E00CD8766 /* Everglades02.jpg in Resources */,
+				FA05E87D19EF2D5E00CD8766 /* Photos.plist in Resources */,
+				FA05E86319EF2D5E00CD8766 /* BryceCanyon03.jpg in Resources */,
+				FAD6E61519F6E76000F8B1CD /* AppIcon60px@2x.png in Resources */,
+				FA05E86119EF2D5E00CD8766 /* BryceCanyon01.jpg in Resources */,
+				FAD6E61419F6E76000F8B1CD /* AppIcon60px.png in Resources */,
+				FA05E86B19EF2D5E00CD8766 /* Glacier02.jpg in Resources */,
+				FAD6E61919F6E7CD00F8B1CD /* AppIcon76px@2x.png in Resources */,
+				FA05E87B19EF2D5E00CD8766 /* Zion02.jpg in Resources */,
+				FA05E80D19EF2CB300CD8766 /* InfoPlist.strings in Resources */,
+				FA05E86C19EF2D5E00CD8766 /* Glacier03.jpg in Resources */,
+				FA05E86219EF2D5E00CD8766 /* BryceCanyon02.jpg in Resources */,
+				FA05E87719EF2D5E00CD8766 /* Yosemite04.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA05E82119EF2CB300CD8766 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA05E82F19EF2CB300CD8766 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA05E7FB19EF2CB300CD8766 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA05E81C19EF2CB300CD8766 /* ViewController.m in Sources */,
+				FA05E81319EF2CB300CD8766 /* AppDelegate.m in Sources */,
+				FA05E80F19EF2CB300CD8766 /* main.m in Sources */,
+				FA05E88319EF2DF600CD8766 /* Model.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA05E81F19EF2CB300CD8766 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA05E83119EF2CB300CD8766 /* NationalParksTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA05E82919EF2CB300CD8766 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA05E7FE19EF2CB300CD8766 /* NationalParks */;
+			targetProxy = FA05E82819EF2CB300CD8766 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA05E80B19EF2CB300CD8766 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA05E80C19EF2CB300CD8766 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FA05E81419EF2CB300CD8766 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA05E81519EF2CB300CD8766 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		FA05E81719EF2CB300CD8766 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA05E81819EF2CB300CD8766 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		FA05E82D19EF2CB300CD8766 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA05E82E19EF2CB300CD8766 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA05E83219EF2CB300CD8766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA05E83319EF2CB300CD8766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA05E83519EF2CB300CD8766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NationalParks/NationalParks-Prefix.pch";
+				INFOPLIST_FILE = "NationalParks/NationalParks-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FA05E83619EF2CB300CD8766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NationalParks/NationalParks-Prefix.pch";
+				INFOPLIST_FILE = "NationalParks/NationalParks-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FA05E83819EF2CB300CD8766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NationalParks.app/NationalParks";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NationalParks/NationalParks-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NationalParksTests/NationalParksTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FA05E83919EF2CB300CD8766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NationalParks.app/NationalParks";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NationalParks/NationalParks-Prefix.pch";
+				INFOPLIST_FILE = "NationalParksTests/NationalParksTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA05E7FA19EF2CB200CD8766 /* Build configuration list for PBXProject "NationalParks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA05E83219EF2CB300CD8766 /* Debug */,
+				FA05E83319EF2CB300CD8766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA05E83419EF2CB300CD8766 /* Build configuration list for PBXNativeTarget "NationalParks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA05E83519EF2CB300CD8766 /* Debug */,
+				FA05E83619EF2CB300CD8766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA05E83719EF2CB300CD8766 /* Build configuration list for PBXNativeTarget "NationalParksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA05E83819EF2CB300CD8766 /* Debug */,
+				FA05E83919EF2CB300CD8766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA05E7F719EF2CB200CD8766 /* Project object */;
+}
