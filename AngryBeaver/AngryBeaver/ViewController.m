@@ -120,59 +120,15 @@ static CMMotionManager *motionManager;
 
    NSArray *chipImages = @[[UIImage imageNamed:@"woodchip1.png"], [UIImage imageNamed:@"woodchip2.png"], [UIImage imageNamed:@"woodchip3.png"], [UIImage imageNamed:@"woodchip4.png"], [UIImage imageNamed:@"woodchip5.png"]];
 
-   // Create emitter cells
-   CAEmitterCell *emitterCell1 = [[CAEmitterCell alloc] init];
-   emitterCell1.contents = (id)[chipImages[0] CGImage];
-   emitterCell1.scale = kParticleScale;
-   emitterCell1.lifetime = kParticleLifetime;
-   emitterCell1.birthRate = kEmitterCellBirthRate;
-   emitterCell1.velocity = kEmitterCellVelocity;
-   emitterCell1.velocityRange = kEmitterCellVelocityRange;
-   emitterCell1.emissionRange = kEmitterCellEmissionRange;
-   emitterCell1.spinRange = kEmitterCellSpinRange;
+    NSMutableArray *woodchipCAEmitterCellArray = [[NSMutableArray alloc] init];
 
-   CAEmitterCell *emitterCell2 = [[CAEmitterCell alloc] init];
-   emitterCell2.contents = (id)[chipImages[1] CGImage];
-   emitterCell2.scale = kParticleScale;
-   emitterCell2.lifetime = kParticleLifetime;
-   emitterCell2.birthRate = kEmitterCellBirthRate;
-   emitterCell2.velocity = kEmitterCellVelocity;
-   emitterCell2.velocityRange = kEmitterCellVelocityRange;
-   emitterCell2.emissionRange = kEmitterCellEmissionRange;
-   emitterCell2.spinRange = kEmitterCellSpinRange;
-
-   CAEmitterCell *emitterCell3 = [[CAEmitterCell alloc] init];
-   emitterCell3.contents = (id)[chipImages[2] CGImage];
-   emitterCell3.scale = kParticleScale;
-   emitterCell3.lifetime = kParticleLifetime;
-   emitterCell3.birthRate = kEmitterCellBirthRate;
-   emitterCell3.velocity = kEmitterCellVelocity;
-   emitterCell3.velocityRange = kEmitterCellVelocityRange;
-   emitterCell3.emissionRange = kEmitterCellEmissionRange;
-   emitterCell3.spinRange = kEmitterCellSpinRange;
-
-   CAEmitterCell *emitterCell4 = [[CAEmitterCell alloc] init];
-   emitterCell4.contents = (id)[chipImages[3] CGImage];
-   emitterCell4.scale = kParticleScale;
-   emitterCell4.lifetime = kParticleLifetime;
-   emitterCell4.birthRate = kEmitterCellBirthRate;
-   emitterCell4.velocity = kEmitterCellVelocity;
-   emitterCell4.velocityRange = kEmitterCellVelocityRange;
-   emitterCell4.emissionRange = kEmitterCellEmissionRange;
-   emitterCell4.spinRange = kEmitterCellSpinRange;
-
-   CAEmitterCell *emitterCell5 = [[CAEmitterCell alloc] init];
-   emitterCell5.contents = (id)[chipImages[4] CGImage];
-   emitterCell5.scale = kParticleScale;
-   emitterCell5.lifetime = kParticleLifetime;
-   emitterCell5.birthRate = kEmitterCellBirthRate;
-   emitterCell5.velocity = kEmitterCellVelocity;
-   emitterCell5.velocityRange = kEmitterCellVelocityRange;
-   emitterCell5.emissionRange = kEmitterCellEmissionRange;
-   emitterCell5.spinRange = kEmitterCellSpinRange;
-
+    // Create emitter cells
+    for(int i = 0; i < chipImages.count; i++) {
+        woodchipCAEmitterCellArray[i] = [self createEmitterCellWithContents:(id)[chipImages[i] CGImage]];
+    }
+    
    // add cells to emitterLayer
-   _emitterLayer.emitterCells = [NSArray arrayWithObjects:emitterCell1, emitterCell2, emitterCell3, emitterCell4, emitterCell5, nil];
+    _emitterLayer.emitterCells = woodchipCAEmitterCellArray;
 }
 
 -(IBAction)startPressed:(id)sender
@@ -227,6 +183,26 @@ static CMMotionManager *motionManager;
    
 }
 
+/*  Create a CAEmitterCell object.  In AngryBeaver, CAEMitterCells are used to provide the
+      woodchip animations that appear when the blade object makes contact with a log object.  As many of the
+      properties are constant across all CAEmitterCell objects in this app, it is not necessary
+      to pass them in.
+    Inputs: the contents of the CAEmitterCell.
+*/
+-(CAEmitterCell *)createEmitterCellWithContents:(id)contents
+{
+    CAEmitterCell *emitterCell = [[CAEmitterCell alloc] init];
+    emitterCell.contents = contents;
+    emitterCell.scale = kParticleScale;
+    emitterCell.lifetime = kParticleLifetime;
+    emitterCell.birthRate = kEmitterCellBirthRate;
+    emitterCell.velocity = kEmitterCellVelocity;
+    emitterCell.velocityRange = kEmitterCellVelocityRange;
+    emitterCell.emissionRange = kEmitterCellEmissionRange;
+    emitterCell.spinRange = kEmitterCellSpinRange;
+
+    return emitterCell;
+}
 
 // create the blade saw, animate it, and give it collision and gyroscope attributes
 -(void)createBlade

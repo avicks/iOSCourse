@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EB9167D2-7A45-42DA-9D0C-5B5BB6CEA465</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AngryBeaver</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E0F4C33D5F1A3EA4845645387174562033621787</key>
+		<string>https://github.com/avicks/iOSCourse.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>AngryBeaver/AngryBeaver.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E0F4C33D5F1A3EA4845645387174562033621787</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/avicks/iOSCourse.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E0F4C33D5F1A3EA4845645387174562033621787</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E0F4C33D5F1A3EA4845645387174562033621787</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOSCourse</string>
+		</dict>
+	</array>
+</dict>
+</plist>
